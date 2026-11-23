@@ -92,7 +92,7 @@ raw-window-handle = "0.6"
 # #1496): DataTransferManager through its desktop interop, a StorageFile for the path; with its
 # companions for WinRT's collections and asynchronous calls (already in the tree through it).
 windows = { version = "0.62", default-features = false, features = ["std", "Win32_Graphics_DirectWrite", "Win32_Graphics_Dxgi", "Win32_Foundation", "Win32_UI_Shell", "Foundation", "Foundation_Collections", "ApplicationModel_DataTransfer", "Storage", "Storage_Streams"] }
-windows-collections = { version = "0.3.2", default-features = false, features = ["std"] }
+windows-collections = { version = "0.100.0", default-features = false, features = ["std"] }
 windows-future = { version = "0.3.2", default-features = false, features = ["std"] }
 
 # The notification-area icon and its menu (tray.rs).
